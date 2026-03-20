@@ -13,7 +13,7 @@ public class A {
 
     public static String s = "Hello";
 
-    public static void meth1() {
+    public static void   meth1() {
         System.out.println("Hello world");
         A obj = new A();
         System.out.println(obj.a);

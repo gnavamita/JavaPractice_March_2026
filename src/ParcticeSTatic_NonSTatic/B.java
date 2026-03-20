@@ -15,6 +15,8 @@ public class B {
         System.out.println(obj.a);
         obj.meth();
         A.meth2();
+
+
         System.out.println(A.s);
         A.meth1();
     }
