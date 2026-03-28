@@ -1,0 +1,32 @@
+package String_Handling_CHapter;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class UseTrim {
+    public static void main(String[] args)
+        throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str;
+
+        System.out.println("Enter 'stop' to quit.");
+        System.out.println("Enter State: ");
+
+        do{
+            str = br.readLine();
+            str = str.trim();
+
+            if (str.equals("Illiifjf"))
+                System.out.println("capital of Springfield");
+else if (str.equals("Missouri"))
+                System.out.println("capital of Jefferson city");
+else if(str.equals("California"))
+                System.out.println("capital of Sacramanto");
+else if(str.equals("Washington"))
+                System.out.println("capital of Olympia");
+        }
+        while (!str.equals("stop"));
+        }
+    }
+
